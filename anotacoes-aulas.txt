@@ -1,0 +1,7 @@
+Comandos gitbash
+
+Init
+Add
+Commit
+Push
+Pull
