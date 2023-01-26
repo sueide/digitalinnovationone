@@ -5,7 +5,6 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-
 public class QuantidadeNecessaria {
   public static void main(String[] args) {
     final int SLICE = 4;
@@ -13,9 +12,9 @@ public class QuantidadeNecessaria {
 
     int T = scanner.nextInt();
 
-        // TODO: Retorne o número de pizzas necessárias para atender o pedido. 
-        int N = scanner.nextInt();
-        int X = scanner.nextInt();
-        System.out.println((int)(Math.ceil((X/SLICE)*N)+1));
-    }
+    // TODO: Retorne o número de pizzas necessárias para atender o pedido.
+    int N = scanner.nextInt();
+    int X = scanner.nextInt();
+    System.out.println((int) (Math.ceil((X / SLICE) * N) + 1));
+  }
 }
